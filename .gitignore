@@ -1,0 +1,38 @@
+# nothing large or regenerable belongs in this repo
+*.faa
+*.fna
+*.fasta
+*.gff
+*.gbk
+*.aln
+*.tab
+*.dmnd
+*.tsv
+hits.tsv
+refs_combined.faa
+
+# job output
+logs/
+slurm-*.out
+*_[0-9]*.out
+*_[0-9]*.err
+
+# databases and environments
+envs/
+*_db/
+gtdbtk_db/
+eggnog_db/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# rendered figures - keep the scripts, not the output
+*.png
+*.jpg
+*.pdf
+!docs/*.pdf
+
+# os
+.DS_Store
